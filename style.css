@@ -37,7 +37,7 @@
     margin-left: 150px;
 }
 
-#blog{
+#blog h2{
     padding-top: 15vh;
     text-align: center;
     font-size: 35px;
@@ -50,24 +50,64 @@ img{
     height: 170px;
 }
 
-div{
-    color: red;
-}
-
 div[title= "Featured Post"]{
     width: 300px;
     height: 350px;
     border-radius: 15px;
     margin-right: 15px;
-    background-color: rgba(27, 27, 27, 27);
-    box-shadow: 0px 1px 1px 1px rgba(27, 27, 27, 27);
-    border-top: 1px solid rgba(27, 27, 27, 27);
+    background-color: rgba(27, 27, 27, 255);
+    box-shadow: 0px 1px 1px 1px rgba(27, 27, 27, 255);
+    border-top: 1px solid rgba(27, 27, 27, 255);
+    display: inline-block;
 }
 
-div[title= "Featured Post"] h3 {
+div[title= "Featured Post"] h3{
     color: white;
 }
 
-div[title= "Featured Post"] p {
+div[title= "Featured Post"] p{
     color: white;
 }
+
+div{
+    width: 300px;
+    height: 350px;
+    display: inline-block;
+    box-shadow: 0 1px 1px 1.5px lightgray;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+div h3{
+    padding: 15px;
+    font-weight: bold;
+}
+
+div p{
+    font-size: 14px;
+    padding: 15px;
+    text-align: justify;
+    padding-top: 0px;
+}
+
+div a{
+    font-size: 14px;
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+div[title= "Featured Post"] a{
+    color: white;
+}
+
+div[title= "Featured Post"] a:hover{
+    color: orange;
+}
+
+div a:hover{
+    color: orangered;
+}
+
+
